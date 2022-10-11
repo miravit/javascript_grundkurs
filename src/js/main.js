@@ -1,3 +1,4 @@
 function myfirstjavascript() {
-    alert("Hello world")
+    confirm("Är du säker?");
+
 }
