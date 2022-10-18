@@ -6,10 +6,12 @@ input {
   width: 300px;
 }
 
-button {
+.button {
   width: 200px;
   height: 40px;
+  background-color: orange;
 }
+
 p {
   color: red;
   font-weight: bold;
