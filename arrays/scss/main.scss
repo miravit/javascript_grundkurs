@@ -1,7 +1,22 @@
 body {
-  background-color: orchid;
+  background-color: rgb(230, 130, 227);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul {
   border: solid black;
+}
+input {
+  height: 30px;
+  width: 300px;
+}
+button {
+  width: 70px;
+}
+.background {
+  background-color: white;
 }
