@@ -19,3 +19,19 @@ for (let i = 0; i < family.length; i++) {
   container.appendChild(age); //lägger till min span i min div
   document.body.appendChild(container); //lägger till min div i min body i min DOM
 }
+
+class Person {
+  firstname;
+  age;
+  isMarried;
+  constructor(firstname, age, isMarried) {
+    this.firstname = firstname;
+    this.age = age;
+    this.isMarried = isMarried;
+  }
+}
+
+let wife2 = new Person("hanna", 42, true);
+{
+}
+console.log(wife2);
