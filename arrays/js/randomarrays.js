@@ -3,7 +3,6 @@ userButton.addEventListener("click" ,showName )
 
 let nummer =["kaffe, bröd, mjölk, tomat, choklad"];
 console.log(nummer)
-let found = false;
 let userInput="";
 
 
@@ -15,7 +14,7 @@ function showName () {
     console.log(nummer);
     let textArea = document.getElementById("textarea");
     textArea.innerHTML+= userInput+"+"
-    break;
+    return userInput;
     }
 
 
