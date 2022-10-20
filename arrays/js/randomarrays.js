@@ -3,6 +3,7 @@ userButton.addEventListener("click" ,showName )
 
 let nummer =["kaffe, bröd, mjölk, tomat, choklad"];
 console.log(nummer)
+
 let userInput="";
 
 
@@ -17,7 +18,7 @@ function showName () {
     return userInput;
     }
 
-
+    
 
 }
 
