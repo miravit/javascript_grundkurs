@@ -1,10 +1,10 @@
 class Person {
-  firstname;
+  firstname; //detta behövs inte skrivas egentligen
   lastname;
   age;
   length;
-  constructor(firstname, lastname, age, length) {
-    this.firstname = firstname;
+  constructor(fname, lastname, age, length) {
+    this.firstname = fname;
     this.lastname = lastname;
     this.age = age;
     this.length = length;
