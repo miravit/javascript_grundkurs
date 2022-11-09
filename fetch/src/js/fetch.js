@@ -14,9 +14,9 @@ function handleData(someMovies, movieAmount) {
     let container = document.createElement("div");
     let title = document.createElement("h3");
     let img = document.createElement("img");
-    title.innerHTML = someMovies[i].Title;
-    img.src = someMovies[i].title;
-    img.alt = someMovies[i].imgageUrl;
+    title.innerHTML = someMovies[i].title;
+    img.src = someMovies[i].imageUrl;
+    img.alt = someMovies[i].title;
     container.appendChild(title);
     container.appendChild(img);
     document.body.appendChild(container);
