@@ -1,4 +1,4 @@
-import { OmdbResponse } from "./models.js/OmdbResponse";
+import { OmdbResponse } from "./models/OmdbResponse";
 
 fetch("http://www.omdbapi.com/?i=tt3896198&apikey=25462718&s=white")
   .then((response) => response.json())
@@ -21,5 +21,5 @@ function handleData(someMovies, movieAmount) {
     container.appendChild(img);
     document.body.appendChild(container);
   }
-  console.log("såhär många filmer finns det: " + movieAmount);
+  console.log("såhär många filmer finns det: ", movieAmount);
 }

@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: brown;
+}
+
+h3 {
+  color: white;
+}
+h3:hover {
+  color: brown;
+}
+img {
+  border: solid 2px white;
+  padding: 10px;
+}
+img:hover {
+  opacity: 50%;
+}
